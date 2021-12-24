@@ -1,3 +1,4 @@
 tasks:
-  - init: npm install -g @angular/cli
+  - name: Installation
+    init: npm install -g @angular/cli
     command: echo "Let's gooo 🚀🚀"
