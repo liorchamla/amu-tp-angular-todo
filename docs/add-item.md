@@ -3,7 +3,15 @@
 Angular nous propose une suite d'outils très simples pour nous aider à gérer les formulaires et en extraire les données !
 
 ## Sommaire
-
+  * [But de l'exercice](#but-de-l-exercice)
+  * [Créons le composant TaskFormComponent](#créons-le-composant-taskformcomponent)
+  * [Gérer un formulaire avec Angular](#gérer-un-formulaire-avec-angular)
+    + [Importer le ReactiveFormsModule](#importer-le-reactiveformsmodule)
+    + [Mettre en place un formulaire réactif](#mettre-en-place-un-formulaire-réactif)
+    + [Utiliser les directives du ReactiveFormsModule](#utiliser-les-directives-du-reactiveformsmodule)
+  * [Créer un événement dans notre composant](#créer-un-événement-dans-notre-composant)
+  * [Ecouter l'événement *onNewTask* dans le *AppComponent*](#ecouter-l-événement--onnewtask--dans-le--appcomponent-)
+  * [Ce que vous avez appris](#ce-que-vous-avez-appris)
 ## But de l'exercice 
 
 Nous allons créer un composant dont le but est de permettre au visiteur de créer une tâche via un formulaire.
@@ -313,3 +321,6 @@ Si vous actualisez votre navigateur, vous verrez que désormais, en soumettant l
 * Lier des éléments HTML à vos groupes (via la directive `formGroup`) et contrôles (via la directive `formControlName`) ;
 * Réagir à la soumission d'un formulaire grâce à la directive `(ngSubmit)` ;
 * Emettre un événement depuis l'intérieur d'un composant vers l'extérieur grâce au décorateur `@Output()` et à la classe `EventEmitter` ;
+
+
+[Revenir au sommaire](../README.md) ou [Passer à la suite : Appels HTTP et API REST](http.md)

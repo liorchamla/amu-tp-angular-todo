@@ -5,7 +5,10 @@ Le composant `AppComponent` est le *conteneur* de notre application, il va conte
 Pour plus de maintenabilité, nous allons créer un composant `TodoListComponent` qui aura pour but d'afficher une liste de tâches.
 
 ## Sommaire
-
+  * [But de l'exercice](#but-de-l-exercice)
+  * [Création du TodoListComponent](#création-du-todolistcomponent)
+  * [Déclarer le nouveau composant dans le AppModule](#déclarer-le-nouveau-composant-dans-le-appmodule)
+  * [Ce que vous avez appris](#ce-que-vous-avez-appris)
 ## But de l'exercice
 Nous allons refactoriser le code actuellement présent dans *AppComponent* au sein d'un nouveau composant. 
 
@@ -125,3 +128,5 @@ Et voilà ! En rechargeant la page dans le navigateur, vous devriez constater qu
 * Créer un nouveau composant et le déclarer dans le *AppModule* ;
 * Utiliser un composant dans le template d'un autre composant grâce à son *sélecteur* ;
 * Permettre de passer des informations à un composant depuis l'extérieur grâce au décorateur `@Input()` ;
+
+[Revenir au sommaire](../README.md) ou [Passer à la suite : Créer des types afin de tirer profit de TypeScript](types.md)

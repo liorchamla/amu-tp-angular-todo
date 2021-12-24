@@ -3,7 +3,12 @@
 Créons notre application Angular en utilisant la CLI !
 
 ## Sommaire
-
+  * [But de l'exercice](#but-de-l-exercice)
+  * [Installation de la CLI](#installation-de-la-cli)
+  * [Création d'une nouvelle application Angular](#création-d-une-nouvelle-application-angular)
+  * [Modifions notre application](#modifions-notre-application)
+  * [Ce que vous avez appris](#ce-que-vous-avez-appris)
+  
 ## But de l'exercice
 
 Nous allons installer l'outil principal de gestion d'une application Angular : la CLI. Puis nous verrons comment créer une application et la lancer dans notre navigateur, avant de modifier le composant principal.
@@ -93,4 +98,4 @@ Et enfin, afin qu'elle ressemble à quelque chose, vous pouvez copier le contenu
 * Utiliser la CLI pour lancer un serveur de développement local ;
 * Le composant `AppComponent` représente notre application ;
 
-
+[Revenir au sommaire](../README.md) ou [Passer à la suite : Afficher une liste des tâches](display-list.md)

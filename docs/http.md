@@ -13,6 +13,15 @@ Par contre, ce que Javascript sait très bien faire, c'est appeler un serveur we
 Il faut donc créer une application web backend qui aura accès à la base de données, et que l'on pourra appeler depuis notre javascript via des requêtes HTTP (le concept même d'API ;-)).
 
 ## Sommaire 
+  * [But de l'exercice](#but-de-l-exercice)
+  * [Créer un projet sur Supabase](#créer-un-projet-sur-supabase--)
+  * [Comprendre comment fonctionne l'API de Supabase](#comprendre-comment-fonctionne-l-api-de-supabase)
+  * [Requête HTTP avec Angular et le HttpClientModule](#requête-http-avec-angular-et-le-httpclientmodule)
+  * [Obtenir une instance de HttpClient grâce à l'injection de dépendances](#obtenir-une-instance-de-httpclient-grâce-à-l-injection-de-dépendances)
+  * [Ne pas utiliser le constructeur pour des opérations complexes](#ne-pas-utiliser-le-constructeur-pour-des-opérations-complexes)
+  * [Ajouter une tâche dans l'API](#ajouter-une-tâche-dans-l-api)
+  * [Modifier le statut d'une tâche](#modifier-le-statut-d-une-tâche)
+  * [Ce que vous avez appris](#ce-que-vous-avez-appris)
 
 ## But de l'exercice
 Nous allons créer une base de données PostgreSQL sur un serveur distant avec une table qui permettra de stocker les données de nos tâches. 
@@ -345,3 +354,6 @@ Testez le changement de statut dans votre navigateur en modifiant une tâche et 
 * Utiliser **l'injection de dépendances** pour obtenir dans une classe une instance d'un service qui vous intéresse ;
 * Envoyer des requêtes HTTP avec différentes méthodes grâce au `HttpClient` ;
 * Spécifier un comportement asynchrone à exécuter lors du retour de la requête HTTP grâce à la méthode `subscribe()` ;
+
+
+[Revenir au sommaire](../README.md) ou [Passer à la suite : Refactoriser de la logique complexe dans des services](service.md)

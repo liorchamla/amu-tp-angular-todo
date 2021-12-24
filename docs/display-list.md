@@ -9,6 +9,10 @@ Pour ça, on rappellera le flux des données dans une application front :
 4. Le HTML peut faire appel à des traitements positionnés dans le Javascript ;
 
 ## Sommaire
+  * [But de l'exercice](#but-de-l-exercice)
+  * [Représenter des données dans un composant Angular](#représenter-des-données-dans-un-composant-angular)
+  * [Projeter des données dans l'interface HTML](#projeter-des-données-dans-l-interface-html)
+  * [Ce que vous avez appris](#ce-que-vous-avez-appris)
 
 ## But de l'exercice
 Le but ici est donc de comprendre comment des données (un tableau d'objets représentant les tâches de la liste) peut être projeté dans l'interface HTML.
@@ -87,3 +91,5 @@ En actualisant la page dans votre navigateur, vous constatez qu'effectivement, l
 * Projeter des données de la classe TS dans le HTML via la syntaxe d'interpolation `{{ data }}` ;
 * Lier un attribut HTML à une donnée via la syntaxe de data binding `[attr]="data"` ;
 * Exprimer une itération sur les élements d'un tableau grâce à la directive `*ngFor="let item of items"` ;
+
+[Revenir au sommaire](../README.md) ou [Passer à la suite : Refactoriser du code dans un composant](component.md)
