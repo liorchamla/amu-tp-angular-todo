@@ -27,7 +27,7 @@ Si l'on souhaite représenter des données, on va donc le faire sous la forme d'
 // app/app.component.ts 
 
 export class AppComponent {
-  tasks = [
+  tasks: any[] = [
     { id: 1, text: "Aller faire des courses", done: false },
     { id: 2, text: "Faire à manger", done: true },
   ];
@@ -72,7 +72,7 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
-  tasks = [
+  tasks: any[] = [
     { id: 1, text: "Aller faire des courses", done: false },
     { id: 2, text: "Faire à manger", done: true },
   ];
